@@ -4,24 +4,13 @@ n <- 1000 #Number of iterations (Monte Carlo)
 set.seed(145689)
 
 #Packages needed
-library(beepr)
 library(deSolve)
 library(EnvStats)
-library(ggplot2)
-library(gridExtra)
 library(epiR)
-library(RColorBrewer)
-library(hrbrthemes)
 library(scales)
 library(IRdisplay)
 library(mc2d)
 library(TruncatedDistributions)
-library(ggpubr)
-library(rpart)				        # Popular decision tree algorithm
-library(rattle)					# Fancy tree plot
-library(rpart.plot)				# Enhanced tree plots
-library(RColorBrewer)				# Color selection for fancy tree plot
-library(caret)
 
 initial.time=Sys.time() #Stores the time the simulation begins (this is then used to determine how long it takes for the model tu run)
 
